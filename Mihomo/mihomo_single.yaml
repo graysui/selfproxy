@@ -59,7 +59,7 @@ NodeParam: &NodeParam {type: http, interval: 86400, health-check: {enable: true,
 # 订阅合集
 proxy-providers:
   Node:
-    url: 'http://152.67.215.214:3001/2cXaAxRGfsjhGz2yx1wA/download/flower?target=ClashMeta'
+    url: 'ClashMeta'
     <<: *NodeParam
     path: './proxy_provider/providers.yaml'
 
